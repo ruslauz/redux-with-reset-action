@@ -6,6 +6,18 @@ A HOF for `Redux` reducers. It helps to add an action for resetting the Redux st
 
 ### Installation
 
+NPM
+
+```
+npm i @ruslanuz/redux-with-reset-action
+```
+
+Yarn
+
+```
+yarn add @ruslanuz/redux-with-reset-action
+```
+
 ### Usage
 
 ```js
