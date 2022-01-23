@@ -35,6 +35,15 @@
   },
   "name": "@ruslanuz/redux-with-reset-action",
   "author": "Sergei",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruslauz/redux-with-reset-action.git"
+  },
+  "homepage": "https://github.com/ruslauz/redux-with-reset-action",
+  "keywords": [
+    "redux",
+    "reset"
+  ],
   "module": "dist/redux-with-reset-action.esm.js",
   "size-limit": [
     {
