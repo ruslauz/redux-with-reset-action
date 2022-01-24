@@ -22,7 +22,9 @@ yarn add @ruslanuz/redux-with-reset-action
 
 ```js
 import { combineReducers } from 'redux';
-import { LOGOUT } from './actionTypes';
+import withResetAction from '@ruslanuz/redux-with-reset-action';
+
+const LOGOUT = 'LOGOUT';
 
 const rootReducer = combineReducers({
   // Your reducers
