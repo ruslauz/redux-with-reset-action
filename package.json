@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.0.0-development",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -17,7 +17,9 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
-    "analyze": "size-limit --why"
+    "analyze": "size-limit --why",
+    "pub": "npm publish --access public",
+    "semantic-release": "semantic-release"
   },
   "peerDependencies": {
     "redux": "^4.1.2"
@@ -57,11 +59,18 @@
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^7.0.5",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
     "redux": "^4.1.2",
     "size-limit": "^7.0.5",
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "semantic-release": "^19.0.2 --branches main"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
